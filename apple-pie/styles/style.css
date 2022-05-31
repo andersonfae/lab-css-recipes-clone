@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+.description {
+  font-size: 1.4em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.hours {
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.apple  {
+  display: flex;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.line {
+  height: 1px;
+  background: #000;
+  margin: 2rem auto;
+}
